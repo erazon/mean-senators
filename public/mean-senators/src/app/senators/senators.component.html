@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let senator of senators">
+        <a routerLink="/senator/{{senator._id}}">
+            {{senator.title}}-{{senator.person.firstname}}-{{senator.person.lastname}}-{{senator.leadership_title}}
+        </a>
+    </li>
+</ul>

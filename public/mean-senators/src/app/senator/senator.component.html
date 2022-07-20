@@ -1,0 +1,15 @@
+<br /><br />
+<button (click)="onDeleteClick(senator._id)">Delete</button>
+<div>{{pageMessage}}</div>
+<br />
+Long title: {{senator.title_long}}<br />
+First Name: {{senator.person.firstname}}<br />
+Last Name: {{senator.person.lastname}}<br />
+Leadership Title: {{senator.leadership_title}}<br />
+Party: {{senator.party}}<br />
+State: {{senator.state}}<br />
+Start Date: {{senator.startdate | date:'MM/dd/YYYY'}}<br />
+End Date: {{senator.enddate | date:'MM/dd/YYYY'}}<br />
+role type: {{senator.role_type}}<br />
+phone: {{senator.phone}}<br />
+description: {{senator.description}}<br />
